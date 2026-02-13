@@ -15,7 +15,7 @@ public class RabbitProblem {
 
     static int rabbits(int month) {
         if (month == 0 || month == 1)
-            return month;
+            return 1;
         return rabbits(month - 1) + rabbits(month - 2);
     }
 
@@ -30,4 +30,5 @@ public class RabbitProblem {
     }
 }
   
+
 
